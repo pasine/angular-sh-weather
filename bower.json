@@ -1,11 +1,11 @@
 {
   "name": "angular-weather-directive",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "authors": [
     "Shaun Husain <shaun.husain@gmail.com>"
   ],
   "description": "Simple directive for displaying the weather forecast using openweathermap.org data and weather-icons from Erik Flowers.",
-  "main": "weatherDirective.js",
+  "main": "dist/angular-weather-directive.js",
   "keywords": [
     "angular",
     "angularjs",
@@ -22,12 +22,11 @@
     "tests"
   ],
   "dependencies": {
-    "angular": "~1.2.17",
+    "angular": ">=1.2.17",
+    "moment": "~2.6.0",
+    "angular-sanitize": ">=1.2.17",
+    "bootstrap": "~3.1.1",
     "weather-icons": "~0.0.1"
   },
-  "devDependencies": {
-    "moment": "~2.6.0",
-    "angular-sanitize": "~1.2.17",
-    "bootstrap": "~3.1.1"
-  }
+  "devDependencies": {}
 }
